@@ -5,7 +5,7 @@ import numpy as np
 import os
 import cv2
 
-api_url = "http://localhost:9900/v1/estimatepose"
+api_url = "url"
 image_path = os.path.join("brainypi-ai-api-examples", "sample_inputs", "images", "pose2.jpg")
 
 image = cv2.imread(image_path)
